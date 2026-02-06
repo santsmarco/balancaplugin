@@ -1,0 +1,20 @@
+name: balancaplugin
+description: Plugin para leitura de balanças comerciais
+version: 1.0.0+1
+homepage: https://example.com
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.app.balancaplugin
+        pluginClass: BalancePlugin
+        kotlin: true
